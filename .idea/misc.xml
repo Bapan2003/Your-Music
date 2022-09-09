@@ -28,7 +28,16 @@
         <entry key="..\:/YourMusic/app/src/main/res/layout/recycler_view.xml" value="0.27447916666666666" />
         <entry key="..\:/YourMusic/app/src/main/res/menu/header_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/YourMusic/app/src/main/res/menu/opt_menu.xml" value="0.27447916666666666" />
-        <entry key="..\:/YourMusic/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.152" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_dehez.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_file_songs.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_log_in.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_music_player.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_splash.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/fragment_profile.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/header_lay.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/recycler_view.xml" value="0.23229166666666667" />
       </map>
     </option>
   </component>
