@@ -29,15 +29,35 @@
         <entry key="..\:/YourMusic/app/src/main/res/menu/header_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/YourMusic/app/src/main/res/menu/opt_menu.xml" value="0.27447916666666666" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_arrow_downward_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_audio_file_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_dehaze_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_explore_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_library_music_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_login_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_pause_circle_outline_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_play_circle_outline_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_skip_next_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_baseline_skip_previous_24.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/drawable/user_profile_image_background.xml" value="0.1975" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout-v21/activity_log_in.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_dehez.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_file_songs.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_log_in.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_login.xml" value="0.21822916666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_music_player.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/activity_splash.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/fragment_profile.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/header_lay.xml" value="0.23229166666666667" />
         <entry key="..\:/apps/Your-Music/app/src/main/res/layout/recycler_view.xml" value="0.23229166666666667" />
+        <entry key="..\:/apps/Your-Music/app/src/main/res/menu/header_menu.xml" value="0.23229166666666667" />
       </map>
     </option>
   </component>

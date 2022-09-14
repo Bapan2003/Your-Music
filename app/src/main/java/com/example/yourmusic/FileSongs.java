@@ -27,7 +27,7 @@ public class FileSongs extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
+
         setContentView(R.layout.activity_file_songs);
         recycler_view=findViewById(R.id.recylcle_view);
         no_song_found=findViewById(R.id.no_song_found);
