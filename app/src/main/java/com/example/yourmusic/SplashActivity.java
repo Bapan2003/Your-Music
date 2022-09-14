@@ -15,11 +15,10 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent iHome=new Intent(SplashActivity.this,MainActivity.class);
+                Intent iHome=new Intent(SplashActivity.this,LoginActivity.class);
                 startActivity(iHome);
                 finish();
             }
