@@ -29,6 +29,7 @@ public class MusicPlayer extends AppCompatActivity {
         setContentView(R.layout.activity_music_player);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
+
         song_title=(TextView) findViewById(R.id.song_title);
         currTime=findViewById(R.id.currTime);
         totalTime=findViewById(R.id.totalTime);
@@ -112,21 +113,34 @@ public class MusicPlayer extends AppCompatActivity {
 
     }
     private void nextMusic(){
-        if(MyMediaPlayer.curIndex==songList.size()-1)
-            return;
-     MyMediaPlayer.curIndex+=1;
-     mediaPlayer.reset();
-     setResourcesMusic();
-     mediaPlayer.start();
-     playMusic();
+        if(MyMediaPlayer.curIndex==songList.size()-1){
+            MyMediaPlayer.curIndex=0;
+            mediaPlayer.reset();
+            setResourcesMusic();
+            mediaPlayer.start();
+            playMusic();
+        }else {
+
+            MyMediaPlayer.curIndex += 1;
+            mediaPlayer.reset();
+            setResourcesMusic();
+            mediaPlayer.start();
+            playMusic();
+        }
     }
     private void previousMusic(){
-        if(MyMediaPlayer.curIndex==0)
-            return;
-        MyMediaPlayer.curIndex-=1;
-        mediaPlayer.reset();
-        setResourcesMusic();
-        playMusic();
+        if(MyMediaPlayer.curIndex==0){
+            MyMediaPlayer.curIndex =songList.size()-1;
+            mediaPlayer.reset();
+            setResourcesMusic();
+            playMusic();
+        }else {
+
+            MyMediaPlayer.curIndex -= 1;
+            mediaPlayer.reset();
+            setResourcesMusic();
+            playMusic();
+        }
     }
     private void pausePlay(){
     if(mediaPlayer.isPlaying()){

@@ -47,12 +47,19 @@ public class MultiListAdapter extends RecyclerView.Adapter<MultiListAdapter.View
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                MyMediaPlayer.getInstance().reset();
-                MyMediaPlayer.curIndex= holder.getAdapterPosition();
-                Intent intent=new Intent(context,MusicPlayer.class);
-                intent.putExtra("List",songList);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                context.startActivity(intent);
+                if(MyMediaPlayer.curIndex!=holder.getAdapterPosition()) {
+                    MyMediaPlayer.getInstance().reset();
+                    MyMediaPlayer.curIndex = holder.getAdapterPosition();
+                    Intent intent = new Intent(context, MusicPlayer.class);
+                    intent.putExtra("List", songList);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    context.startActivity(intent);
+                }else{
+                    Intent intent = new Intent(context, MusicPlayer.class);
+                    intent.putExtra("List", songList);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    context.startActivity(intent);
+                }
             }
         });
     }
